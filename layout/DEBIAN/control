@@ -1,0 +1,12 @@
+Package: com.rpetrich.sbappcompat
+Name: SBAppCompat
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Compatibility library for SBApplication on iOS 8
+	Compatibility library for SBApplication on iOS 8, with alerting so developers can learn that they're using dead private APIs
+Maintainer: Ryan Petrich <rpetrich+sbappcompat@gmail.com>
+Author: Ryan Petrich <rpetrich+sbappcompat@gmail.com>
+Depends: mobilesubstrate, firmware (>= 8.0)
+Conflicts: applist (<< 1.5.10~beta1)
+Section: Tweaks
+dev: rpetrich
